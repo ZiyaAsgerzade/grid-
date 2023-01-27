@@ -1,0 +1,65 @@
+.main_box{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr ;
+   gap: 20px;
+   
+   height: 100vh;
+   
+   grid-template-areas:
+   "box1 box2 box2 box3"
+   "box1 box4 box5 box6"
+   "box1 box7 box8 box6";
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px black;
+    
+    
+}
+
+.box1{
+    grid-area: box1;
+    background-color: green;
+}
+.box2{
+    grid-area: box2;
+    background-color: green;
+
+}
+.box3{
+    grid-area: box3;
+    background-color: red;
+
+}
+.box4{
+    grid-area: box4;
+    background-color: orange;
+
+}
+
+.box5{
+    grid-area: box5;
+    background-color: red;
+
+}
+.box6{
+    grid-area: box6;
+    background-color: green;
+
+}
+
+.box7{
+    grid-area: box7;
+    background-color: red;
+
+}
+.box8{
+    grid-area: box8;
+    background-color: orange;
+
+}
+
+
+
+
